@@ -22,7 +22,7 @@ namespace EntFr
                 System.Console.WriteLine("Список объектов");
                 foreach (Hdd h in hdds)
                 {
-                    Console.WriteLine($"{h.Id}.{h.Manufacturer}  {h.Model} {h.SerialNumber}");
+                    Console.WriteLine($"{h.Id}.{h.Manufacturer}  {h.Model} {h.SerialNumber} {h.RegistrationNumber}");
                 }
             }
         }
