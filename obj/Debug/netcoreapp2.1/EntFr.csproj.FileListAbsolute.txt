@@ -1,0 +1,11 @@
+D:\Work\EntFr\bin\Debug\netcoreapp2.1\EntFr.deps.json
+D:\Work\EntFr\bin\Debug\netcoreapp2.1\EntFr.runtimeconfig.json
+D:\Work\EntFr\bin\Debug\netcoreapp2.1\EntFr.runtimeconfig.dev.json
+D:\Work\EntFr\bin\Debug\netcoreapp2.1\EntFr.dll
+D:\Work\EntFr\bin\Debug\netcoreapp2.1\EntFr.pdb
+D:\Work\EntFr\obj\Debug\netcoreapp2.1\EntFr.csprojAssemblyReference.cache
+D:\Work\EntFr\obj\Debug\netcoreapp2.1\EntFr.csproj.CoreCompileInputs.cache
+D:\Work\EntFr\obj\Debug\netcoreapp2.1\EntFr.AssemblyInfoInputs.cache
+D:\Work\EntFr\obj\Debug\netcoreapp2.1\EntFr.AssemblyInfo.cs
+D:\Work\EntFr\obj\Debug\netcoreapp2.1\EntFr.dll
+D:\Work\EntFr\obj\Debug\netcoreapp2.1\EntFr.pdb
