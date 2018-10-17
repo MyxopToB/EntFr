@@ -16,6 +16,7 @@ namespace EntFr
         }
 
         public virtual DbSet<Hdd> Hdd { get; set; }
+        public virtual DbSet<Stamps> Stamps { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -32,8 +33,8 @@ namespace EntFr
             {
                 entity.ToTable("hdd");
 
-                entity.Property(e => e.Id)
-                    .HasColumnName("id")
+                entity.Property(e => e.HddId)
+                    .HasColumnName("hddId")
                     .HasColumnType("mediumint(9)");
 
                 entity.Property(e => e.Capacity)
@@ -55,6 +56,29 @@ namespace EntFr
                 entity.Property(e => e.SerialNumber)
                     .HasColumnName("serial_number")
                     .HasColumnType("varchar(50)");
+            });
+
+            modelBuilder.Entity<Stamps>(entity =>
+            {
+                entity.HasKey(e => e.StampId);
+
+                entity.ToTable("stamps");
+
+                entity.Property(e => e.StampId)
+                    .HasColumnName("stampId")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.FillingDate)
+                    .HasColumnName("filling_date")
+                    .HasColumnType("date");
+
+                entity.Property(e => e.Number)
+                    .HasColumnName("number")
+                    .HasColumnType("varchar(15)");
+
+                entity.Property(e => e.OpeningDate)
+                    .HasColumnName("opening_date")
+                    .HasColumnType("date");
             });
         }
     }

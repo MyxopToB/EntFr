@@ -5,7 +5,7 @@ namespace EntFr
 {
     public partial class Hdd
     {
-        public int Id { get; set; }
+        public int HddId { get; set; }
         public string Manufacturer { get; set; }
         public string Model { get; set; }
         public short? Capacity { get; set; }
